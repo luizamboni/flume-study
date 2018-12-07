@@ -2,6 +2,8 @@
 
 echo $1
 
+# if [ $1 = "" ]
+
 bin/flume-ng agent --conf conf \
    --conf-file conf/flume.conf \
     --name $1 \

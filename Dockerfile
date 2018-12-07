@@ -10,6 +10,7 @@ WORKDIR flume
 
 COPY conf/flume.conf ./conf/flume.conf
 COPY entrypoint.sh ./entrypoint.sh
+COPY gen_data.py gen_data.py
 
 RUN apt-get update && apt install -y telnet
 
