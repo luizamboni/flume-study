@@ -11,3 +11,9 @@ to send data to source a1.r1 use telnet
 ```bash
 $ telnet localhost 44444
 ```
+
+to generate a mock data use
+
+```bash
+$ python gen_data.py 100000 2 >> profiles.text
+```
